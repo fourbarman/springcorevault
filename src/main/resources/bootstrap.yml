@@ -1,5 +1,5 @@
-#spring:
-#  application:
-#    name: spring_core_vault_example
-#  profiles:
-#    active: dev
+spring:
+  application:
+    name: spring_core_vault_example
+  profiles:
+    active: dev

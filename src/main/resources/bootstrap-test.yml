@@ -1,0 +1,18 @@
+#spring:
+#  application:
+#    name: spring_core_vault_example
+#  cloud:
+#    vault:
+#      token: 00000000-0000-0000-0000-000000000000
+#      kv:
+#        enabled: true
+#        default-context:
+#        backend: ecom-test-vault
+#        profile-separator: '/'
+#        application-name: ecom.test.sbp
+#      scheme: http
+#      uri: http://localhost:8200
+#  config:
+#    location: vault://
+#  profiles:
+#    include: application-test.yml

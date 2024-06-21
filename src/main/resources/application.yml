@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: spring_core_vault_example
+  profiles:
+    active: dev
+  datasource:
+    username: application
+    password: yml
